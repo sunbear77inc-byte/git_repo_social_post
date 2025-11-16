@@ -41,5 +41,5 @@ def get_prompt_words():
     for placeholder, selected_word in chosen_words.items():
         template_text = template_text.replace(f"{{{placeholder}}}", selected_word)
 
-    filler_words = list(chosen_words.values())
-    return template_text, filler_words
+#    filler_words_pairs = list(chosen_words))
+    return template_text, chosen_words

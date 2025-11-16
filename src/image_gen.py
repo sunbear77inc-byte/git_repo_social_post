@@ -1,7 +1,7 @@
 import torch
 from diffusers import StableDiffusionPipeline
 import os
-#from utils.logger import get_image_name
+from utils.logger import initiate_image
 
 # --- Configuration ---
 
@@ -9,7 +9,7 @@ import os
 # You can change this to 'runwayml/stable-diffusion-v1-5' for a slightly larger model,
 # or 'stabilityai/stable-diffusion-2-1' for a newer version.
 MODEL_ID = "runwayml/stable-diffusion-v1-5"  
-
+MODEL_ID_1 = "stabilityai/stable-diffusion-2-1"
 # --- Main Generation Function ---
 
 def generate_and_save_image(prompt: str):
@@ -46,7 +46,8 @@ def generate_and_save_image(prompt: str):
         guidance_scale=7.5
     ).images[0]
 
-    image_name = "image_test.jpg"
+    image_name = str(initiate_image()) + '.jpg'
+    print(f'this is the file name {image_name}')
     # Save the generated image
     image.save(image_name)
     
