@@ -1,14 +1,14 @@
 import torch
 from diffusers import StableDiffusionPipeline
 import os
+#from utils.logger import get_image_name
 
 # --- Configuration ---
 
 # 1. Model Name: Using a standard, relatively small Stable Diffusion model (1.5)
 # You can change this to 'runwayml/stable-diffusion-v1-5' for a slightly larger model,
 # or 'stabilityai/stable-diffusion-2-1' for a newer version.
-MODEL_ID = "runwayml/stable-diffusion-v1-5" 
-OUTPUT_FILENAME = "generated_image.png"
+MODEL_ID = "runwayml/stable-diffusion-v1-5"  
 
 # --- Main Generation Function ---
 
@@ -46,17 +46,11 @@ def generate_and_save_image(prompt: str):
         guidance_scale=7.5
     ).images[0]
 
+    image_name = "image_test.jpg"
     # Save the generated image
-    image.save(OUTPUT_FILENAME)
+    image.save(image_name)
     
-    print(f"\n✅ Success! Image saved to: {os.path.abspath(OUTPUT_FILENAME)}")
+    print(f"\n✅ Success! Image saved to: {os.path.abspath(image_name)}")
     print("------------------------------------------")
 
 
-# --- Execution Block ---
-if __name__ == "__main__":
-    # Define your text prompt here
-    user_prompt = "A majestic space whale swimming through a nebula of pink and purple, digital art, high detail"
-    
-    # Run the generation process
-    generate_and_save_image(user_prompt)
