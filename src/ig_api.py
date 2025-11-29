@@ -21,7 +21,7 @@ def upload_to_ig(image_url, caption):
     """
     Uploads an image to Instagram, now using spoofed User-Agent headers.
     """
-    base_url = "https://graph.facebook.com/v21.0"
+    base_url = "https://graph.facebook.com/v24.0"
     
     # --- Step 1: Create Media Container ---
     container_url = f"{base_url}/{IG_USER_ID}/media"
@@ -46,7 +46,7 @@ def upload_to_ig(image_url, caption):
             }
             
         creation_id = container_data["id"]
-        
+       
         # --- Step 2: Publish Media ---
         publish_url = f"{base_url}/{IG_USER_ID}/media_publish"
         publish_payload = {
