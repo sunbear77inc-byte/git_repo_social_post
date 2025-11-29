@@ -5,3 +5,5 @@ __pycache__/
 *.log
 sp_venv/
 *.png
+data/*
+*.jpg

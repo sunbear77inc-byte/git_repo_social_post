@@ -11,8 +11,7 @@ print("about to get going")
 prompt, filler_words = get_prompt_words()        
 image_name = generate_and_save_image(prompt)
 print(image_name)
-caption = prompt 
-#+ "\n#quote\n\n"
+caption = prompt
 print("about to get cloudy going,{image_id}")
 cloudy_url = up_load_image_2_cloudinary(image_name)
 print(cloudy_url)
