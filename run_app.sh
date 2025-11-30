@@ -4,6 +4,13 @@
 VENV_PATH="/home/wlsbase/git_repo_social_post/sp_venv"
 APP_PATH="/home/wlsbase/git_repo_social_post/src/app.py"
 
+# --- Best Practice for Cron Jiobs ---
+
+#--- 1.5 Change the directory to the project root before running the application.
+#    This ensures all relative paths used inside the Python script resolve correctly.
+PROJECT_ROOT="/home/wlsbase/git_repo_social_post"
+cd "${PROJECT_ROOT}" || exit 1
+
 # --- 2. ERROR CHECKING & DEBUGGING ---
 
 # Set e: Exit immediately if a command exits with a non-zero status.
