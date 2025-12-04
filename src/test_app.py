@@ -1,10 +1,9 @@
 from template_gen import get_prompt_words
-from image_gen import generate_and_save_image
+from image_gen_flux import generate_and_save_image
 from utils.logger import log_hello 
 from cloudy_api import up_load_image_2_cloudinary
+from ig_api import upload_to_ig
 from new_ig import publish_instagram_media
-from text_gen import draw_text
-from text_overlay_gen import get_text_overlay
 
 
 print("about to get going")
@@ -13,23 +12,15 @@ prompt, filler_words = get_prompt_words()
 image_name = generate_and_save_image(prompt)
 print(image_name)
 caption = prompt
-text_overlay = get_text_overlay()
-draw_text(text_overlay,image_name)
 print("about to get cloudy going,{image_id}")
 cloudy_url = up_load_image_2_cloudinary(image_name)
 print(cloudy_url)
 
-print("\n\n\n\n")
-
-print(f"filler words:/n {filler_words}")
-print(f"prompt:/n {prompt}")
-print(f"caption:/n {caption}")
-
-
-resulta = publish_instagram_media(cloudy_url,caption)
+#upload_to_ig(cloudy_url,caption)
+i#resulta = publish_instagram_media(cloudy_url,caption)
 
 print("just sent to ig\n\n\n\n\n")
-print(resulta)
+#print(resulta)
 #log_new_sequance(image_id,prompt,Filler_words)
 log_hello()
 
