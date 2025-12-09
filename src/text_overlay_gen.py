@@ -3,7 +3,9 @@ import random
 
 
 current_dir = os.path.dirname(__file__)
-file_path = os.path.join(current_dir, '..', 'data', 'overlay_text', 'ov_text.txt')
+#file_path = os.path.join(current_dir, '..', 'data', 'overlay_text', 'ov_text.txt')
+file_path = os.path.join(current_dir, '..', 'data', 'words', 'unitruths.txt')
+
 
 def get_text_overlay():
     """

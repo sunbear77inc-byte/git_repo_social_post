@@ -1,0 +1,68 @@
+“A few actions create most of your results; focus on them.” – Pareto Principle (80/20 Rule)
+“Work expands to fill the time given; deadlines sharpen effort.” – Parkinson’s Law
+“More effort doesn’t always mean more success; know when to stop.” – Law of Diminishing Returns
+“People rise until they reach their level of failure.” – Peter Principle
+“The simplest explanation is usually correct.” – Occam’s Razor
+“Most mistakes are accidents, not evil intent.” – Hanlon’s Razor
+“If it can go wrong, it will; plan for it.” – Murphy’s Law
+“When metrics become goals, they lose meaning.” – Goodhart’s Law
+“Everything takes longer than expected, even when planned.” – Hofstadter’s Law
+“What lasts longest is likely to last even longer.” – Lindy Effect
+“Networks grow exponentially as more people connect.” – Metcalfe’s Law
+“People choose the easiest path; design simplicity.” – Law of Least Effort
+“Don’t stay in something just because you invested before.” – Sunk Cost Fallacy
+“You must meet basic needs before pursuing higher goals.” – Maslow’s Hierarchy of Needs
+“Humans can maintain about 150 meaningful relationships.” – Dunbar’s Number
+“To innovate, break assumptions and rebuild from truth.” – First Principles Thinking
+“Some games only work if someone loses for another to win.” – Zero-Sum Game Theory
+“People act according to rewards, not ideals.” – Law of Incentives
+“You see what you already believe; challenge your mind.” – Confirmation Bias
+“What you repeat compounds into your life.” – Feedback Loop Theory
+“What you focus on grows stronger in your life.” – Law of Attraction
+“Energy is contagious; choose your surroundings wisely.” – Law of Vibration
+“Letting go opens the door to what’s meant to come.” – Law of Detachment
+“Every action causes a chain reaction; nothing is isolated.” – Law of Cause and Effect
+“Opposites define each other; light exists because of dark.” – Law of Polarity
+“Life moves in cycles; highs and lows are natural.” – Law of Rhythm
+“Creation needs balance; action and receptivity must coexist.” – Law of Gender
+“We are all connected; every action affects the whole.” – Law of Oneness
+“You are rewarded based on the value you provide.” – Law of Compensation
+“Assume what you want as true; your reality will follow.” – Law of Assumption
+“Intent shapes outcome; what you focus on manifests.” – Law of Intent
+“Patterns repeat until lessons are learned.” – Law of Perpetual Transmutation of Energy
+“Silence often reveals more than words.” – Universal Truth
+“You cannot pour from an empty cup; care for yourself first.” – Universal Truth
+“People see the world not as it is, but as they are.” – Universal Truth
+“What is meant for you will not require you to shrink.” – Universal Truth
+“Small habits create massive results over time.” – Feedback Loop Principle
+“Losing sometimes is necessary to grow stronger.” – Universal Truth
+“Everything is temporary; learn to flow with change.” – Universal Truth
+“Your thoughts shape your reality; choose them wisely.” – Law of Attraction
+“Doubt kills more dreams than failure ever will.” – Universal Truth
+“Time is your most valuable resource; spend it intentionally.” – Universal Truth
+“What you resist persists; embrace reality to move forward.” – Universal Truth
+“Freedom comes when you master yourself.” – Universal Truth
+“Action beats intention; ideas without execution remain nothing.” – Universal Truth
+“Gratitude turns what you have into enough.” – Universal Truth
+“Learning never stops; wisdom grows from curiosity.” – Universal Truth
+“Failure is feedback, not finality.” – Universal Truth
+“The mind is a garden; thoughts are seeds, choose them carefully.” – Universal Truth
+“Simplicity reveals truth; complexity often hides it.” – Occam’s Razor
+“Your environment shapes your energy; choose it wisely.” – Law of Vibration
+“Your beliefs shape your reality; what you assume as true manifests.” – Law of Assumption
+“Minor actions repeated consistently outweigh sporadic grand efforts.” – Feedback Loop Theory
+“Planning underestimates complexity; expect delays.” – Planning Fallacy
+“What appears frequently in data may follow hidden statistical patterns.” – Benford’s Law
+“Long-lived ideas or technologies tend to endure even longer.” – Lindy Effect
+“Rewards shape behavior more than ideals or ethics.” – Law of Incentives
+“Interruptions leave a lasting mark on memory and motivation.” – Zeigarnik Effect
+“Even small errors, if unchecked, can cascade into large failures.” – Murphy’s Law
+“Adding more people to a failing project often worsens it.” – Brooks’s Law
+“Decisions slow as options increase; simplicity accelerates action.” – Hick’s Law
+“Overestimating your abilities can lead to costly mistakes.” – Overconfidence Effect
+“The strongest connections are built on trust and reciprocity.” – Universal Truth
+“Habits compound silently; neglect small actions at your peril.” – Feedback Loop Principle
+“Change is constant; adaptability ensures survival.” – Universal Truth
+“The simplest path is often the most efficient.” – Law of Least Effort
+“What survives scrutiny and time is inherently valuable.” – Lindy Effect
+“Your network gains value as more people participate.” – Metcalfe’s Law
